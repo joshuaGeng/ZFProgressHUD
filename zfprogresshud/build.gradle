@@ -103,7 +103,7 @@ bintray {
     pkg {
         repo = "maven"
         name = "ZFProgressHUD"                                                 // #修改# //  在 jcenter 上面的项目名字
-        userOrg = 'loopcoding'
+        userOrg = 'gengzhongfei'
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

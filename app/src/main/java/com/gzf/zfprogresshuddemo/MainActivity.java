@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 //        sZFUtils.show(this,"正在加载...");
 
         // 点击背景 取消加载
-//        sZFProgressHUDUtils.show(this,"正在加载...",true);
+        sZFProgressHUDUtils.show(this,"正在加载...",true);
 
         // 可设置字体大小和颜色
 //        sZFProgressHUDUtils.show(this,"正在加载...",15, Color.RED,true);
@@ -48,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
 //        sZFProgressHUDUtils.show(this,"正在加载...",15, color,true); progress_indeterminate_horizontal
 
         // 可自定义加载动画图片
-//        Drawable drawable = getResources().getDrawable(android.R.drawable.custom_progress_animation);
-        Drawable drawable = getResources().getDrawable(R.drawable.custom_progress_animation);
-    sZFProgressHUDUtils.show(this,"正在加载...",15, Color.WHITE,true,drawable);
+//        // Drawable drawable = getResources().getDrawable(android.R.drawable.custom_progress_animation);
+//        Drawable drawable = getResources().getDrawable(R.drawable.custom_progress_animation);
+//    sZFProgressHUDUtils.show(this,"正在加载...",15, Color.WHITE,true,drawable);
 
 
     }
