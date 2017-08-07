@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义进度条 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_process_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:layout_centerInParent="true">
+    <ProgressBar
+        android:id="@+id/process_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/process_dialog"
+        android:indeterminateDuration="500"
+        android:indeterminateOnly="true"
+        android:interpolator="@android:anim/linear_interpolator">
+    </ProgressBar>
+    <TextView
+        android:id="@+id/process_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/process_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="加载"
+        android:textColor="#ffffff"
+        android:textSize="18sp">
+    </TextView>
+</RelativeLayout>

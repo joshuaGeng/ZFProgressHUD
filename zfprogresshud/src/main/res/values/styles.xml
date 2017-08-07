@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<style name="ZFProgressHUD" parent="@android:style/Theme.Dialog">
+    <item name="android:windowFrame">@null</item> <!-- 边框 -->
+    <item name="android:windowBackground">@color/transparent</item>
+    <item name="android:windowFullscreen">true</item>
+</style>
+
+</resources>
